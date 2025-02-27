@@ -23,7 +23,7 @@ class Tag extends Model implements Sortable
 
     public $guarded = [];
 
-    public static function getLocale()
+    public function getLocale()
     {
         return app()->getLocale();
     }
